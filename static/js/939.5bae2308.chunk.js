@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[939],{939:function(e,t,a){e.exports=a.p+"static/media/solar-pow-tab.ec6393c878d0000a701a.jpg"}}]);

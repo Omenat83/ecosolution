@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[784],{784:function(e,t,a){e.exports=a.p+"static/media/turbines-tab.2729982b343ae9676c1f.jpg"}}]);

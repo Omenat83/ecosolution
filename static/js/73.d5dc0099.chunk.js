@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[73],{73:function(e,t,a){e.exports=a.p+"static/media/solar-pow-deck.25f62c6f7a3699f9cbe0.jpg"}}]);
