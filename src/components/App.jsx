@@ -1,17 +1,11 @@
+import MainPage from "pages/MainPage";
+import { Wrap } from "./App.styled";
+
 const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React homework template sadasdgfdsf
-    </div>
+    <Wrap>
+     <MainPage/>
+    </Wrap>
   );
 };
 

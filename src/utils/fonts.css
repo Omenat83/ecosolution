@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url('fonts/Oswald-Regular.ttf');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('fonts/FiraSans-Regular.ttf');
+  font-display: swap;
+}
