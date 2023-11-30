@@ -1,14 +1,22 @@
-// import photo2 from '/img/swiper1.jpg'
+import React, { useState, useEffect } from 'react';
 
 const CaseListItem = ({ alt, date, photo, title }) => {
+const [imageSrc, setImageSrc] = useState(null);
 
-    console.log(photo);
+    useEffect(() => {
+      import(`../../img/${photo}`)
+        .then(image => {
+          setImageSrc(image.default);
+        })
+        .catch(error => {
+          console.error('Error loading the image:', error);
+        });
+    }, [photo]);
+
 
     return (
       <>
-        <img src={photo} alt="User avatar" />
-        <img src='/img/swiper1.jpg' alt="Local" />
-        {/* <img src={photo2} alt="User avatar" /> */}
+        {imageSrc && <img src={imageSrc} alt="Swiper Im" />}
 
         <p>title: {title}</p>
         <button>button arrow</button>

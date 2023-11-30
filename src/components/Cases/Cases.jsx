@@ -1,19 +1,19 @@
 import React from 'react';
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 
-import svg from '../../img/icons/spriteSvg.svg';
-import Line from 'components/Line/Line';
+// import svg from '../../img/icons/spriteSvg.svg';
+// import Line from 'components/Line/Line';
 import CaseListItem from 'components/CaseItem/CaseItem';
 
 const Cases = ({ articles }) => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+//   const settings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 500,
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//   };
   console.log('articles', articles);
 
   return (
