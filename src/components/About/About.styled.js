@@ -155,6 +155,16 @@ export const AboutItemTitle = styled.h3`
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 32px;
+    line-height: 48px;
+  }
 `;
 
 export const AboutItemTop = styled.div`
