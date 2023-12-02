@@ -25,6 +25,7 @@ const Main = () => {
             sources, generating power generation using energy wind, sun, water,
             biomass
           </MainText>
+
           <MainBtn href="#cases">
             <MainBtnText>Learn more</MainBtnText>
             <MainArrow>
@@ -33,6 +34,7 @@ const Main = () => {
               </MainIcon>
             </MainArrow>
           </MainBtn>
+          
         </div>
       </MainContTab>
       <Line />

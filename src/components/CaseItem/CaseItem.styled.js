@@ -19,6 +19,7 @@ export const SwiperPhotoImg = styled.img`
   height: 168px;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 
   @media screen and (min-width: 768px) {
     width: 342px;

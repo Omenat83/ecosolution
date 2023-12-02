@@ -57,7 +57,7 @@ const Cases = ({ articles }) => {
   };
 
   return (
-    <CaseContainer>
+    <CaseContainer id="cases">
       <CaseTopContainer>
         <CasesTitle>Successful cases of our company</CasesTitle>
 

@@ -68,13 +68,13 @@ export const MainText = styled.p`
   }
 `;
 
-export const MainBtn = styled.button`
-  max-width: 143px;
+export const MainBtn = styled.a`
+  width: 141px;
   height: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 12px;
+  box-sizing: border-box;
   padding: 4px 4px 4px 16px;
   border-radius: 100px;
   border: 1px solid var(--accent-main);
@@ -83,6 +83,8 @@ export const MainBtn = styled.button`
   margin-right: auto;
   margin-top: 24px;
   margin-bottom: 24px;
+
+  /* scroll-behavior: smooth; */
 
   @media screen and (min-width: 768px) {
     margin-top: 43px;
