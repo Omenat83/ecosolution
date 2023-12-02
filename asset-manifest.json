@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/ecosolution/static/css/main.e9adf15c.css",
-    "main.js": "/ecosolution/static/js/main.db322036.js",
+    "main.css": "/ecosolution/static/css/main.24e0862f.css",
+    "main.js": "/ecosolution/static/js/main.df39b4f3.js",
     "static/js/141.bfef3884.chunk.js": "/ecosolution/static/js/141.bfef3884.chunk.js",
-    "static/js/742.0678d011.chunk.js": "/ecosolution/static/js/742.0678d011.chunk.js",
+    "static/js/742.bc76c211.chunk.js": "/ecosolution/static/js/742.bc76c211.chunk.js",
     "static/js/408.de7bc318.chunk.js": "/ecosolution/static/js/408.de7bc318.chunk.js",
     "static/js/73.d5dc0099.chunk.js": "/ecosolution/static/js/73.d5dc0099.chunk.js",
     "static/js/939.5bae2308.chunk.js": "/ecosolution/static/js/939.5bae2308.chunk.js",
@@ -17,6 +17,7 @@
     "static/js/784.9ead39ca.chunk.js": "/ecosolution/static/js/784.9ead39ca.chunk.js",
     "static/media/wind-turbine-deck.jpg": "/ecosolution/static/media/wind-turbine-deck.ba6d427292c9db31412b.jpg",
     "static/media/FiraSans-Regular.ttf": "/ecosolution/static/media/FiraSans-Regular.f4eb295ecc2fb842d61c.ttf",
+    "static/media/FiraSans-Light.ttf": "/ecosolution/static/media/FiraSans-Light.7ece67e11e181a7292ef.ttf",
     "static/media/wind-turbine-tab.jpg": "/ecosolution/static/media/wind-turbine-tab.52674b0b82b02594c72d.jpg",
     "static/media/solar-pow-deck.jpg": "/ecosolution/static/media/solar-pow-deck.25f62c6f7a3699f9cbe0.jpg",
     "static/media/swiper2.jpg": "/ecosolution/static/media/swiper2.25f62c6f7a3699f9cbe0.jpg",
@@ -34,13 +35,13 @@
     "static/media/man2-tab.jpg": "/ecosolution/static/media/man2-tab.d434e6518008e8ca0168.jpg",
     "static/media/turbines-tab.jpg": "/ecosolution/static/media/turbines-tab.2729982b343ae9676c1f.jpg",
     "static/media/turbines-mob.jpg": "/ecosolution/static/media/turbines-mob.d71ce2eb06fe1afa5f59.jpg",
-    "static/media/spriteSvg.svg": "/ecosolution/static/media/spriteSvg.19b106a6d8f2bd4d892374ab8dbf617d.svg",
+    "static/media/spriteSvg.svg": "/ecosolution/static/media/spriteSvg.3c3ba004c1048e579788792b103a674b.svg",
     "index.html": "/ecosolution/index.html",
-    "main.e9adf15c.css.map": "/ecosolution/static/css/main.e9adf15c.css.map",
-    "main.db322036.js.map": "/ecosolution/static/js/main.db322036.js.map"
+    "main.24e0862f.css.map": "/ecosolution/static/css/main.24e0862f.css.map",
+    "main.df39b4f3.js.map": "/ecosolution/static/js/main.df39b4f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9adf15c.css",
-    "static/js/main.db322036.js"
+    "static/css/main.24e0862f.css",
+    "static/js/main.df39b4f3.js"
   ]
 }
