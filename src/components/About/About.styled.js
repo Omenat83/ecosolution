@@ -40,13 +40,14 @@ export const AboutContainer = styled.div`
 export const AboutTitle = styled.h2`
   font-size: 28px;
   line-height: 28px;
+  font-style: normal;
+  font-weight: 400;
   text-transform: uppercase;
 
   @media screen and (min-width: 768px) {
     width: 272px;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
+
     line-height: 36px;
   }
 

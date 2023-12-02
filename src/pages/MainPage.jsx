@@ -15,7 +15,8 @@ const MainPage = () => {
       <Main />
       <About />
       <Electriciti />
-      <Cases articles = {swiperData} />
+      <Cases articles={swiperData} />
+      <p>\dxgffcbg</p>
     </>
   );
 };
