@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import svg from '../../img/icons/spriteSvg.svg';
 import Line from 'components/Line/Line';
 import {
@@ -29,7 +29,6 @@ const Faq = ({ questions }) => {
   return (
     <FaqContainer>
       <FaqTitle>Frequently Asked Questions</FaqTitle>
-      {/* блок з питаннями */}
       <FaqQuestionContainer>
         {questions.map((faq, index) => {
           return (
@@ -64,8 +63,6 @@ const Faq = ({ questions }) => {
           );
         })}
       </FaqQuestionContainer>
-
-      {/* блок нижній */}
       <FaqHelpContainer>
         <FaqHelp>Didn't find the answer to your question?</FaqHelp>
         <FaqHelpBtn href="#contact us">
