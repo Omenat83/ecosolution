@@ -1,18 +1,22 @@
 import React from 'react';
-import { Formik, Form, Field, ErrorMessage, useFormikContext } from 'formik';
+import { Formik, Form } from 'formik';
 import Line from 'components/Line/Line';
 import Schema from './Schema';
+import svg from '../../img/icons/spriteSvg.svg';
+
 import {
   FormContainer,
   FormItem,
   FormItemLabel,
   FormItemField,
   FormItemError,
+  FormItemBtn,
+  FormItemBtnText,
+  FormItemBtnRound,
+  FormItemBtnIcon,
 } from './Form.styled';
 
 const ContactUsForm = () => {
-  //  const formik = useFormikContext();
-
   const initialValues = {
     fullName: '',
     email: '',
@@ -42,7 +46,11 @@ const ContactUsForm = () => {
                 placeholder="John Rosie"
                 required
               />
-              <Line />
+              {formik.errors.fullName ? (
+                <Line color="var(--error-message)" />
+              ) : (
+                <Line />
+              )}
               <FormItemError name="fullName" component="div" />
             </FormItem>
 
@@ -55,36 +63,27 @@ const ContactUsForm = () => {
                 placeholder="johnrosie@gmail.com"
                 required
               />
-              <Line />
-              {/* {!formik.errors.email && <Line />} */}
-              <FormItemError
-                name="email"
-                component="div"
-                //   render={msg => {
-                //       return (
-                //           <>
-                //               {/* {msg ? null : <p>dfgdfbfgh</p>}
-                //               <div>{msg}</div> */}
-                //               <Line
-                //                   color={'var(--error-message)'}
-                //               />
-                //           </>
-                //       );
-                //   }}
-              />
+              {formik.errors.email ? (
+                <Line color="var(--error-message)" />
+              ) : (
+                <Line />
+              )}
+              <FormItemError name="email" component="div" />
             </FormItem>
 
             <FormItem>
               <FormItemLabel htmlFor="phone">* Phone</FormItemLabel>
               <FormItemField
                 id="phone"
-                //   type="text"
                 name="phone"
                 placeholder="380961234567"
                 required
               />
-              <Line />
-
+              {formik.errors.phone ? (
+                <Line color="var(--error-message)" />
+              ) : (
+                <Line />
+              )}
               <FormItemError name="phone" component="div" />
             </FormItem>
 
@@ -99,7 +98,14 @@ const ContactUsForm = () => {
               <Line />
             </FormItem>
 
-            <button type="submit">Submit</button>
+            <FormItemBtn type="submit">
+              <FormItemBtnText>Send</FormItemBtnText>
+              <FormItemBtnRound>
+                <FormItemBtnIcon>
+                  <use href={`${svg}#icon-arrow-right`} />
+                </FormItemBtnIcon>
+              </FormItemBtnRound>
+            </FormItemBtn>
           </Form>
         )}
       </Formik>

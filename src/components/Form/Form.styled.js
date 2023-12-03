@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Field, ErrorMessage } from 'formik';
 
 export const FormContainer = styled.div`
   /* width: 320px; */
@@ -46,8 +46,6 @@ export const FormItemField = styled(Field)`
   }
 `;
 
-export const FormItemFieldMessage = styled(Field)``;
-
 export const FormItemError = styled(ErrorMessage)`
   position: absolute;
   right: 0;
@@ -59,4 +57,48 @@ export const FormItemError = styled(ErrorMessage)`
   line-height: normal;
   letter-spacing: -0.48px;
   color: var(--error-message);
+`;
+
+export const FormItemBtn = styled.button`
+  width: 100px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-right: 0;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 4px;
+  border: 1px solid var(--accent-main);
+  border-radius: 100px;
+  background-color: transparent;
+`;
+
+export const FormItemBtnText = styled.span`
+  font-family: Fira Sans;
+  color: var(--text-main);
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.64px;
+`;
+
+export const FormItemBtnRound = styled.div`
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--accent-main);
+`;
+
+export const FormItemBtnIcon = styled.svg`
+  width: 16px;
+  height: 16px;
+  stroke: var(--text-main);
+  fill: transparent;
 `;
