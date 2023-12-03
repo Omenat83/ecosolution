@@ -3,10 +3,12 @@
   --backgroung-article: #eaedf1;
   --background-menu: rgba(23, 61, 51, 0.75);
 
-
-
   --text-main: #173d33;
 
   --accent-main: #97d28b;
   --accent-light: #dcefd8;
+
+  --placeholder: #BDBDBD;
+
+  --error-message: #D28B8B;
 }

@@ -3,5 +3,5 @@ import styled from "styled-components";
 export const LineDiv = styled.div`
   width: 100%;
   height: 1px;
-  background-color: var(--accent-main);
+  /* background-color: var(--accent-main); */
 `;

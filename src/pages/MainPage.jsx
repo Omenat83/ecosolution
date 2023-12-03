@@ -7,6 +7,7 @@ import About from 'components/About/About';
 import Electriciti from 'components/Electricity/Electricity';
 import Cases from 'components/Cases/Cases';
 import Faq from 'components/Faq/Faq';
+import ContactUs from 'components/ContactUs/ContactUs';
 
 const MainPage = () => {
   return (
@@ -18,6 +19,7 @@ const MainPage = () => {
       <Electriciti />
       <Cases articles={swiperData} />
       <Faq questions={faqData} />
+      <ContactUs/>
       <p>\dxgffcbg</p>
     </>
   );
