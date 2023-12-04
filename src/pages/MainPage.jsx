@@ -1,3 +1,5 @@
+// import React, { useEffect, useState } from 'react';
+
 import swiperData from '../utils/data/swiper.json';
 import faqData from '../utils/data/faq.json';
 import Main from 'components/Main/Main';
@@ -11,9 +13,10 @@ import ContactUs from 'components/ContactUs/ContactUs';
 import Footer from 'components/Footer/Footer';
 
 const MainPage = () => {
+
   return (
     <>
-      <Header />
+      <Header/>
       <MainTitle>Ecosolution, green energy</MainTitle>
       <Main />
       <About />
@@ -21,8 +24,7 @@ const MainPage = () => {
       <Cases articles={swiperData} />
       <Faq questions={faqData} />
       <ContactUs />
-      <Footer/>
-      <p>\dxgffcbg</p>
+      <Footer />
     </>
   );
 };

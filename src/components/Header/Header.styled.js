@@ -1,9 +1,16 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: ${({ scrollBackground }) =>
+    scrollBackground
+      ? '#FFF'
+      : 'transparent'};
 `;
 
 export const HeaderNavContainer = styled.div`
@@ -47,11 +54,13 @@ export const HeaderGetText = styled.span`
   font-family: Fira Sans;
 `;
 
-export const HeaderGetBtn = styled.button`
+export const HeaderGetBtn = styled.a`
+
 display: none;
 
 @media screen and (min-width: 768px) {
   text-decoration: none;
+  box-sizing: border-box;
   width: 140px;
   height: 40px;
   display: flex;

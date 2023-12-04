@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
   margin-top: 24px;
+  margin-bottom: 50px;
 
   @media screen and (min-width: 768px) {
     margin-top: 100px;
@@ -71,7 +72,6 @@ export const FooterBottom = styled.div`
   }
 
   @media screen and (min-width: 1280px) {
-
     & > span {
       margin-left: 167px;
     }

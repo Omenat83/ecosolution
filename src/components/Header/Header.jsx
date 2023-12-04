@@ -1,3 +1,5 @@
+import React, { useEffect, useState } from 'react';
+
 import svg from '../../img/icons/spriteSvg.svg';
 import {
   HeaderLogo,
@@ -12,8 +14,27 @@ import {
 } from './Header.styled';
 
 const Header = () => {
+  const [scrollBackground, setScrollBackground] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scroll = window.scrollY;
+      if (scroll > 50) {
+        setScrollBackground(true);
+      } else {
+        setScrollBackground(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <HeaderContainer>
+    <HeaderContainer scrollBackground={scrollBackground}>
       <HeaderLogo>
         <svg width={31} height={46}>
           <use href={`${svg}#icon-logo1`} />
