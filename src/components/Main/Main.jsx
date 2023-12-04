@@ -16,7 +16,7 @@ import {
 
 const Main = () => {
   return (
-    <MainContainer>
+    <MainContainer id="main">
       <MainContTab>
         <MainTitle>RENEWABLE ENERGY For any task</MainTitle>
         <div>

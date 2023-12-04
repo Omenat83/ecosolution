@@ -53,7 +53,6 @@ const ContactUsForm = () => {
               )}
               <FormItemError name="fullName" component="div" />
             </FormItem>
-
             <FormItem>
               <FormItemLabel htmlFor="email">* E-mail:</FormItemLabel>
               <FormItemField
@@ -70,7 +69,6 @@ const ContactUsForm = () => {
               )}
               <FormItemError name="email" component="div" />
             </FormItem>
-
             <FormItem>
               <FormItemLabel htmlFor="phone">* Phone</FormItemLabel>
               <FormItemField
@@ -86,7 +84,6 @@ const ContactUsForm = () => {
               )}
               <FormItemError name="phone" component="div" />
             </FormItem>
-
             <FormItem>
               <FormItemLabel htmlFor="message">Message</FormItemLabel>
               <FormItemField
@@ -97,7 +94,6 @@ const ContactUsForm = () => {
               />
               <Line />
             </FormItem>
-
             <FormItemBtn type="submit">
               <FormItemBtnText>Send</FormItemBtnText>
               <FormItemBtnRound>

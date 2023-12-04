@@ -8,6 +8,7 @@ import Electriciti from 'components/Electricity/Electricity';
 import Cases from 'components/Cases/Cases';
 import Faq from 'components/Faq/Faq';
 import ContactUs from 'components/ContactUs/ContactUs';
+import Footer from 'components/Footer/Footer';
 
 const MainPage = () => {
   return (
@@ -19,7 +20,8 @@ const MainPage = () => {
       <Electriciti />
       <Cases articles={swiperData} />
       <Faq questions={faqData} />
-      <ContactUs/>
+      <ContactUs />
+      <Footer/>
       <p>\dxgffcbg</p>
     </>
   );

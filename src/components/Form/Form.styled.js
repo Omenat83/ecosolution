@@ -2,14 +2,26 @@ import styled from 'styled-components';
 import { Field, ErrorMessage } from 'formik';
 
 export const FormContainer = styled.div`
-  /* width: 320px; */
   background-color: var(--backgroung-article);
   padding: 36px 12px;
+  margin-top: 24px;
 
   & > form > div:nth-child(n + 2) {
     margin-top: 28px;
   }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+    padding: 36px 24px;
+    width: 298px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 48px;
+    width: 500px;
+  }
 `;
+
 export const FormItem = styled.div`
   display: flex;
   flex-direction: column;
@@ -74,6 +86,10 @@ export const FormItemBtn = styled.button`
   border: 1px solid var(--accent-main);
   border-radius: 100px;
   background-color: transparent;
+
+  @media screen and (min-width: 1280px) {
+    margin-top: 32px;
+  }
 `;
 
 export const FormItemBtnText = styled.span`
