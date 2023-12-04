@@ -4,11 +4,14 @@
   --background-menu: rgba(23, 61, 51, 0.75);
 
   --text-main: #173d33;
+  --text-white: #FFF;
 
   --accent-main: #97d28b;
   --accent-light: #dcefd8;
 
-  --placeholder: #BDBDBD;
+  --placeholder: #bdbdbd;
 
-  --error-message: #D28B8B;
+  --error-message: #d28b8b;
+
+  --modal-backdrop: rgba(23, 61, 51, 0.25);
 }

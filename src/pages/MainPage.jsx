@@ -1,5 +1,3 @@
-// import React, { useEffect, useState } from 'react';
-
 import swiperData from '../utils/data/swiper.json';
 import faqData from '../utils/data/faq.json';
 import Main from 'components/Main/Main';

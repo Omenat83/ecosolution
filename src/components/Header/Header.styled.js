@@ -42,6 +42,7 @@ export const HeaderMenuBtn = styled.button`
   border-radius: 50%;
   background: var(--accent-light);
   border: none;
+  outline: 0;
 
   @media screen and (min-width: 1280px) {
     &:hover {

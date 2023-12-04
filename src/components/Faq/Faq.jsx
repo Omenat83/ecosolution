@@ -27,7 +27,7 @@ const Faq = ({ questions }) => {
   };
 
   return (
-    <FaqContainer>
+    <FaqContainer id="faq">
       <FaqTitle>Frequently Asked Questions</FaqTitle>
       <FaqQuestionContainer>
         {questions.map((faq, index) => {

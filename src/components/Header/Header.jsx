@@ -12,9 +12,15 @@ import {
   HeaderContainer,
   HeaderNavContainer,
 } from './Header.styled';
+import BurgerMenu from 'components/BurgerMenu/BurgerMenu';
 
 const Header = () => {
   const [isScroll, setIsScroll] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleBurger = () => {
+    setShowModal(!showModal);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,7 +53,7 @@ const Header = () => {
         </svg>
       </HeaderLogo>
       <HeaderNavContainer>
-        <HeaderMenuBtn type="button">
+        <HeaderMenuBtn type="button" onClick={()=>setShowModal(true)}>
           <HeaderMenuIcon width={20} height={20}>
             <use href={`${svg}#icon-burger-menu`} />
           </HeaderMenuIcon>
@@ -59,6 +65,8 @@ const Header = () => {
           </HeaderGetIcon>
         </HeaderGetBtn>
       </HeaderNavContainer>
+
+      {showModal && <BurgerMenu setShowModal={setShowModal} />}
     </HeaderContainer>
   );
 };

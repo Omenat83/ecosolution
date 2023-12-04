@@ -16,7 +16,7 @@ import {
 const About = () => {
   return (
     <>
-      <AboutContainer>
+      <AboutContainer id="about">
         <AboutTitle>Main values of our company</AboutTitle>
         <AboutText>
           EcoSolution envisions a world where sustainable energy solutions power
