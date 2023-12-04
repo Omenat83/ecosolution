@@ -3,7 +3,7 @@ import mainImageMob from '../../img/wind-turbine-mob.jpg';
 import mainImageTab from '../../img/wind-turbine-tab.jpg';
 import mainImageDesk from '../../img/wind-turbine-deck.jpg';
 
-export const MainContainer = styled.div`
+export const MainContainer = styled.section`
   margin-top: 146px;
 
   @media screen and (min-width: 768px) {

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ContactsMainContainer = styled.div`
+export const ContactsMainContainer = styled.section`
   @media screen and (min-width: 768px) {
     display: flex;
     margin-top: 40px;

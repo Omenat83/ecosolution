@@ -47,8 +47,6 @@ export const ModalContent = styled.div`
   overflow: auto;
 `;
 
-export const ModalClose = styled.div``;
-
 export const ModalCloseBtn = styled.button`
   width: 70px;
   height: 24px;
@@ -87,7 +85,7 @@ export const ModalItemName = styled.p`
   font-size: 24px;
   line-height: normal;
   letter-spacing: -0.96px;
-  color: rgba(255, 255, 255, 0.25);
+color: ${props => props.color};
 `;
 
 export const ModalItemIcon = styled.svg`

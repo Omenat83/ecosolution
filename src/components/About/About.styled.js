@@ -4,7 +4,7 @@ import man1ImageDesk from '../../img/man1-deck.jpg';
 import man2ImageTab from '../../img/man2-tab.jpg';
 import man2ImageDesk from '../../img/man2-deck.jpg';
 
-export const AboutContainer = styled.div`
+export const AboutContainer = styled.section`
   display: flex;
   flex-direction: column;
   gap: 24px;

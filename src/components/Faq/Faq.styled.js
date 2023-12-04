@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FaqContainer = styled.div`
+export const FaqContainer = styled.section`
   margin-top: 36px;
 
   @media screen and (min-width: 768px) {

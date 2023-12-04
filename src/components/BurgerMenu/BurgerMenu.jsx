@@ -15,7 +15,7 @@ import {
   ModalNav,
 } from './BurgerMenu.styled';
 
-const BurgerMenu = ({ setShowModal }) => {
+const BurgerMenu = ({ setShowModal, activeMenu }) => {
   const menuItems = [
     { menu: 'Main', link: 'main' },
     { menu: 'About', link: 'about' },
@@ -54,7 +54,15 @@ const BurgerMenu = ({ setShowModal }) => {
               {menuItems.map((item, index) => {
                 return (
                   <ModalItem key={index} href={`#${item.link}`}>
-                    <ModalItemName>{item.menu}</ModalItemName>
+                    {item.link === activeMenu ? (
+                      <ModalItemName color="var(--accent-main)">
+                        {item.menu}
+                      </ModalItemName>
+                    ) : (
+                      <ModalItemName color="rgba(255, 255, 255, 0.25)">
+                        {item.menu}
+                      </ModalItemName>
+                    )}
                     <ModalItemIcon>
                       <use href={`${svg}#icon-arrow-right-top`} />
                     </ModalItemIcon>
