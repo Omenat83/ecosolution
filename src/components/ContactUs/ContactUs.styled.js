@@ -72,13 +72,19 @@ export const ContactsLink = styled.a`
   align-items: center;
   gap: 8px;
 
+  @media screen and (min-width: 1280px) {
+    &:hover {
+      & > svg {
+        stroke: var(--accent-main);
+      }
+    }
+  }
 `;
 
 export const ContactsPhone = styled.ul`
   display: flex;
   gap: 12px;
   flex-direction: column;
-
 `;
 
 export const ContactsType = styled.div`
@@ -92,7 +98,6 @@ export const ContactsType = styled.div`
       margin-top: 0;
     }
   }
-
 `;
 
 export const ContactsSocial = styled.div`
@@ -109,5 +114,4 @@ export const ContactsSocial = styled.div`
 export const ContactsSocialLink = styled.ul`
   display: flex;
   gap: 32px;
-
 `;

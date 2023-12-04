@@ -14,15 +14,15 @@ import {
 } from './Header.styled';
 
 const Header = () => {
-  const [scrollBackground, setScrollBackground] = useState(false);
+  const [isScroll, setIsScroll] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scroll = window.scrollY;
       if (scroll > 50) {
-        setScrollBackground(true);
+        setIsScroll(true);
       } else {
-        setScrollBackground(false);
+        setIsScroll(false);
       }
     };
 
@@ -34,7 +34,7 @@ const Header = () => {
   }, []);
 
   return (
-    <HeaderContainer scrollBackground={scrollBackground}>
+    <HeaderContainer isScroll={isScroll}>
       <HeaderLogo>
         <svg width={31} height={46}>
           <use href={`${svg}#icon-logo1`} />

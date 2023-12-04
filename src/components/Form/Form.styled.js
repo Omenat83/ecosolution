@@ -89,6 +89,15 @@ export const FormItemBtn = styled.button`
 
   @media screen and (min-width: 1280px) {
     margin-top: 32px;
+
+    &:hover {
+      background-color: var(--text-main);
+      border: 1px solid var(--text-main);
+
+      & > span {
+        color: var(--accent-main);
+      }
+    }
   }
 `;
 

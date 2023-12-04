@@ -21,6 +21,12 @@ export const FooterLogo = styled.div`
 
 export const FooterLogoIcon = styled.svg`
   fill: var(--text-main);
+
+  @media screen and (min-width: 1280px) {
+    &:hover {
+      fill: var(--accent-main);
+    }
+  }
 `;
 
 export const FooterSocial = styled.div`
@@ -98,7 +104,7 @@ export const FooterBottomText = styled.span`
   }
 `;
 
-export const FooterUp = styled.div`
+export const FooterUpBtn = styled.div`
   position: absolute;
   right: 0;
   width: 32px;
@@ -108,6 +114,16 @@ export const FooterUp = styled.div`
   align-items: center;
   background-color: var(--accent-main);
   border-radius: 50%;
+
+  @media screen and (min-width: 1280px) {
+
+    &:hover {
+      background-color: var(--text-main);
+      
+      & svg {
+      stroke: var(--accent-main);}
+    }
+  }
 `;
 
 export const FooterUpIcon = styled.svg`

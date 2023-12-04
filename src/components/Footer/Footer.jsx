@@ -11,7 +11,7 @@ import {
   FooterBottom,
   FooterBottomText,
   FooterUpIcon,
-  FooterUp,
+  FooterUpBtn,
   FooterBottomEmail,
 } from './Footer.styled';
 
@@ -45,13 +45,13 @@ const Footer = () => {
           </a>
         </FooterSocial>
 
-        <FooterUp>
+        <FooterUpBtn>
           <a href="#main">
             <FooterUpIcon>
               <use href={`${svg}#icon-arrow-up`} />
             </FooterUpIcon>
           </a>
-        </FooterUp>
+        </FooterUpBtn>
       </FooterTop>
 
       <FooterBottom>

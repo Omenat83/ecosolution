@@ -183,6 +183,19 @@ export const FaqHelpBtn = styled.a`
   border-radius: 100px;
   border: none;
   background-color: var(--accent-main);
+
+  @media screen and (min-width: 1280px) {
+    &:hover {
+      background-color: var(--text-main);
+      & > span {
+        color: var(--accent-main);
+      }
+
+      & > svg {
+        fill: var(--accent-main);
+      }
+    }
+  }
 `;
 
 export const FaqHelpBtnText = styled.span`

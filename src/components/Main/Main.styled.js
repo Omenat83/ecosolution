@@ -84,8 +84,6 @@ export const MainBtn = styled.a`
   margin-top: 24px;
   margin-bottom: 24px;
 
-  /* scroll-behavior: smooth; */
-
   @media screen and (min-width: 768px) {
     margin-top: 43px;
     margin-left: 0;
@@ -93,6 +91,15 @@ export const MainBtn = styled.a`
 
   @media screen and (min-width: 1280px) {
     margin-top: 20px;
+
+    &:hover {
+      background-color: var(--text-main);
+      border: 1px solid var(--text-main);
+
+      & > span {
+        color: var(--accent-main);
+      }
+    }
   }
 `;
 
@@ -102,7 +109,7 @@ export const MainBtnText = styled.span`
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 112.5% */
+  line-height: 18px;
   letter-spacing: -0.64px;
 `;
 

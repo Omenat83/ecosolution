@@ -104,6 +104,16 @@ export const CaseBtn = styled.button`
   border-radius: 100px;
   border: 1px solid var(--text-main);
   background-color: transparent;
+
+  @media screen and (min-width: 1280px) {
+    &:hover {
+      border: 1px solid var(--accent-main);
+
+      & > svg {
+        stroke: var(--accent-main);
+      }
+    }
+  }
 `;
 
 export const CaseBtnIcon = styled.svg`

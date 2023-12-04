@@ -7,17 +7,14 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: ${({ scrollBackground }) =>
-    scrollBackground
-      ? '#FFF'
-      : 'transparent'};
+  background-color: ${({ isScroll }) => (isScroll ? '#FFF' : 'transparent')};
 `;
 
 export const HeaderNavContainer = styled.div`
-@media screen and (min-width: 768px) {
-display: flex;
-gap: 12px;
-}
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 12px;
+  }
 `;
 
 export const HeaderLogo = styled.div`
@@ -28,6 +25,12 @@ export const HeaderLogo = styled.div`
 
 export const HeaderLogoIcon = styled.svg`
   fill: var(--text-main);
+
+  @media screen and (min-width: 1280px) {
+    &:hover {
+      fill: var(--accent-main);
+    }
+  }
 `;
 
 export const HeaderMenuBtn = styled.button`
@@ -39,6 +42,12 @@ export const HeaderMenuBtn = styled.button`
   border-radius: 50%;
   background: var(--accent-light);
   border: none;
+
+  @media screen and (min-width: 1280px) {
+    &:hover {
+      background: var(--accent-main);
+    }
+  }
 `;
 
 export const HeaderMenuIcon = styled.svg`
@@ -55,23 +64,35 @@ export const HeaderGetText = styled.span`
 `;
 
 export const HeaderGetBtn = styled.a`
+  display: none;
 
-display: none;
+  @media screen and (min-width: 768px) {
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: var(--accent-main);
+    padding: 10px 16px;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: -0.64px;
+  }
 
-@media screen and (min-width: 768px) {
-  text-decoration: none;
-  box-sizing: border-box;
-  width: 140px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  background-color: var(--accent-main);
-  padding: 10px 16px;
-  border-radius: 100px;
-  border: none;
-  font-size: 16px;
-  letter-spacing: -0.64px;
-}
+  @media screen and (min-width: 1280px) {
+    &:hover {
+      background-color: var(--text-main);
+      & > span {
+        color: var(--accent-main);
+      }
+
+      & > svg {
+        fill: var(--accent-main);
+      }
+    }
+  }
 `;

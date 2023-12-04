@@ -89,6 +89,16 @@ export const DescriptionBtn = styled.button`
   background-color: var(--accent-main);
   border: none;
   margin-top: 5px;
+
+  @media screen and (min-width: 1280px) {
+    &:hover {
+      background-color: var(--text-main);
+
+      & > svg {
+        stroke: var(--accent-main);
+      }
+    }
+  }
 `;
 
 export const DescriptionBtnIcon = styled.svg`
