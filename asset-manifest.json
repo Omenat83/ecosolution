@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecosolution/static/css/main.89ad6372.css",
-    "main.js": "/ecosolution/static/js/main.699e5c8b.js",
+    "main.css": "/ecosolution/static/css/main.7f31bd6b.css",
+    "main.js": "/ecosolution/static/js/main.cb99cf75.js",
     "static/js/141.bfef3884.chunk.js": "/ecosolution/static/js/141.bfef3884.chunk.js",
     "static/js/742.c1cedae2.chunk.js": "/ecosolution/static/js/742.c1cedae2.chunk.js",
     "static/js/408.de7bc318.chunk.js": "/ecosolution/static/js/408.de7bc318.chunk.js",
@@ -30,6 +30,7 @@
     "static/media/man2-deck.jpg": "/ecosolution/static/media/man2-deck.d4c562f8ae3d54987489.jpg",
     "static/media/solar-pow-tab.jpg": "/ecosolution/static/media/solar-pow-tab.ec6393c878d0000a701a.jpg",
     "static/media/wind-turbine-mob.jpg": "/ecosolution/static/media/wind-turbine-mob.53576a96c909ab987da4.jpg",
+    "static/media/Oswald-Bold.ttf": "/ecosolution/static/media/Oswald-Bold.41669c1e4f6bdc605d26.ttf",
     "static/media/Oswald-Regular.ttf": "/ecosolution/static/media/Oswald-Regular.31bce04a1ae8549b1464.ttf",
     "static/media/man1-tab.jpg": "/ecosolution/static/media/man1-tab.bc35c66f8953bc06dc89.jpg",
     "static/media/man2-tab.jpg": "/ecosolution/static/media/man2-tab.d434e6518008e8ca0168.jpg",
@@ -37,11 +38,11 @@
     "static/media/turbines-mob.jpg": "/ecosolution/static/media/turbines-mob.d71ce2eb06fe1afa5f59.jpg",
     "static/media/spriteSvg.svg": "/ecosolution/static/media/spriteSvg.0f0afd4d85aab1a19048aeae2ab97f77.svg",
     "index.html": "/ecosolution/index.html",
-    "main.89ad6372.css.map": "/ecosolution/static/css/main.89ad6372.css.map",
-    "main.699e5c8b.js.map": "/ecosolution/static/js/main.699e5c8b.js.map"
+    "main.7f31bd6b.css.map": "/ecosolution/static/css/main.7f31bd6b.css.map",
+    "main.cb99cf75.js.map": "/ecosolution/static/js/main.cb99cf75.js.map"
   },
   "entrypoints": [
-    "static/css/main.89ad6372.css",
-    "static/js/main.699e5c8b.js"
+    "static/css/main.7f31bd6b.css",
+    "static/js/main.cb99cf75.js"
   ]
 }
